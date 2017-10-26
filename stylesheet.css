@@ -1,0 +1,56 @@
+
+.container { 
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.red {
+	background-color: #AD2002;
+	height: 100vh;
+	width: 50vw; 
+}
+
+.blue { 
+	background-color: #027CAD;
+	height: 50%;
+	width: 50%;
+}
+
+.orange {
+	background-color: #DAB250;
+	height:50%;
+	width:50%;
+}
+
+.yellow {
+	background-color: #D7DF42;
+	height: 50%;
+	width: 50%;
+}
+
+.green {
+	background-color: #39A30E;
+	height: 50%;
+	width: 50%;
+}
+
+.purple {
+	height: 100vh;
+	width: 50vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+	
+@media screen and (max-width:800px) {
+	.red {
+		width: 100vw;
+	}
+	.purple {
+	width: 100vw;
+	}
+}
+
+
+
